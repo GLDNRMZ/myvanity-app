@@ -1,0 +1,9 @@
+:root { color-scheme: light dark; --bg: #faf7f2; --ink: #2c1f1a; --muted: #9a7a72; --accent: #a85f52; }
+@media (prefers-color-scheme: dark) { :root { --bg: #17110f; --ink: #f3e9e4; --muted: #b59c93; --accent: #c96f5c; } }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 "DM Sans", system-ui, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-family: "Playfair Display", Georgia, serif; font-weight: 600; margin: 0 0 4px; }
+h2 { font-family: "Playfair Display", Georgia, serif; font-weight: 600; font-size: 1.15rem; margin: 28px 0 6px; }
+p.updated { color: var(--muted); margin: 0 0 24px; font-size: 14px; }
+a { color: var(--accent); }
+ul { padding-left: 20px; }
